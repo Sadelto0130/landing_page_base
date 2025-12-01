@@ -105,7 +105,7 @@ export const PriceSection = () => {
               <ul className="space-y-3 text-left">
                 {plan.features.map((f, i) => (
                   <li key={i} className="flex items-center gap-2">
-                    <FaCheck className={`text-green-500 ${plan.popular && "!text-white"}`} />
+                    <FaCheck className={`text-green-500 ${plan.popular && "text-white"}`} />
                     <span>{f}</span>
                   </li>
                 ))}
